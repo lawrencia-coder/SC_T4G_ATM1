@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #63494f;
+    background-color: #390514;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,8 +40,8 @@ body {
 }
 
 .atm-screen {
-    background-color: #320a16;
-    border: 3px solid #5b4646;
+    background-color: #092d1d;
+    border: 3px solid #064e3b;
     border-radius: 8px;
     padding: 20px;
     height: 180px;

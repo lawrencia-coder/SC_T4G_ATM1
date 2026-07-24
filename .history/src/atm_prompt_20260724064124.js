@@ -23,11 +23,8 @@ if(enteredPin === Pin){
          userBalance = userBalance - userAmount;
         //userBalance-=userAmount
 
-        receiptTitle.innerText = "TRANSACTION SUCCESSFUL";
-        receiptText.innerText=`Transaction declined... You cannot withdraw ${userAmount}, because your account is ${userBalance}`}
-    }else{
-        receiptTitle.innerText="ACCESS DENIED";
-        receiptText.innerText="Invalid security PIN code entered. Account blocked for your protection"
+        receiptText.innerText = "TRANSACTION SUCCESSFUL";
+        receiptText}}else{
         //prompt(`Enter the correct PIN`);
 
 }

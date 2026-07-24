@@ -16,20 +16,15 @@ console.log(typeof{enteredPin}); //string
 if(enteredPin === Pin){
     let userAmount = prompt(`PIN ACCEPTED! Your current balance is ${userBalance}.
          Enter amount to withdraw`);
-    console.log(typeof(userAmount)); //string
+    //console.log(typeof(userAmount)); //string
     userAmount=Number(userAmount);
-    console.log(typeof(userAmount)); //output will be a number
+    //console.log(typeof(userAmount)); //output will be a number
     if(userBalance >= userAmount){
          userBalance = userBalance - userAmount;
         //userBalance-=userAmount
 
-        receiptTitle.innerText = "TRANSACTION SUCCESSFUL";
-        receiptText.innerText=`Transaction declined... You cannot withdraw ${userAmount}, because your account is ${userBalance}`}
-    }else{
-        receiptTitle.innerText="ACCESS DENIED";
-        receiptText.innerText="Invalid security PIN code entered. Account blocked for your protection"
-        //prompt(`Enter the correct PIN`);
-
+        receiptText.innerText = "TRANSACTION SUCCESSFUL";}}else{
+    prompt(`Enter the correct PIN`);
 }
 
     
